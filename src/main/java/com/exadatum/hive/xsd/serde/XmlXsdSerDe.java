@@ -2,12 +2,14 @@ package com.exadatum.hive.xsd.serde;
 
 
 import com.exadatum.hive.xsd.serde.avro.*;
+import com.exadatum.hive.xsd.serde.converter.Converter;
 import com.exadatum.hive.xsd.serde.converter.DatumBuilder;
 import com.exadatum.hive.xsd.serde.converter.SchemaBuilder;
 import com.exadatum.hive.xsd.serde.processor.XSDParser;
 import com.exadatum.hive.xsd.serde.readerwriter.XmlInputFormat;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericRecord;
+import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hive.serde2.SerDe;
 import org.apache.hadoop.hive.serde2.SerDeException;
@@ -28,6 +30,8 @@ public class XmlXsdSerDe implements SerDe {
     private static final Logger LOGGER = Logger.getLogger(XmlXsdSerDe.class);
 
     private static final String XSD_FILE_LOCATION = "schema.file.location";
+    private static final String XSD_BASE_DIRECTORY = "schema.base.dir";
+
     private ObjectInspector objectInspector = null;
     private static final String LIST_COLUMNS = "columns";
     private static final String LIST_COLUMN_TYPES = "columns.types";
@@ -61,7 +65,6 @@ public class XmlXsdSerDe implements SerDe {
         // (1) workaround for the Hive issue with propagating the table properties to the InputFormat
         initialize(configuration, properties, XmlInputFormat.START_TAG_KEY, XmlInputFormat.END_TAG_KEY);
 
-        // (3) create XML processor context
         List<String> columnNames;
         if (columnNamesFromXml.size() <= 0)
             columnNames = Arrays.asList(properties.getProperty(LIST_COLUMNS).split("[,:;]"));
@@ -84,8 +87,9 @@ public class XmlXsdSerDe implements SerDe {
     }
 
     private void setColumnListAndType(String filePath) throws SerDeException {
-
         SchemaBuilder schemaBuilder = new SchemaBuilder();
+
+
         Schema schema = schemaBuilder.createSchema(new File(filePath));
 
         if (schema.getType() == Schema.Type.ARRAY)
@@ -115,9 +119,7 @@ public class XmlXsdSerDe implements SerDe {
         }
     }
 
-    /**
-     * @see org.apache.hadoop.hive.serde2.Deserializer#deserialize(Writable)
-     */
+
     @Override
     public Object deserialize(Writable writable) throws SerDeException {
         Text text = (Text) writable;
@@ -132,7 +134,6 @@ public class XmlXsdSerDe implements SerDe {
             }
 
         GenericRecord avroRecord = (GenericRecord) datum;
-
         AvroGenericRecordWritable avroGenericRecordWritable = new AvroGenericRecordWritable(avroRecord);
 
         return getDeserializer().deserialize(columnNamesFromXml, columnTypesFromXml, avroGenericRecordWritable, schema);

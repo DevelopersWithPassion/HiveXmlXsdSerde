@@ -13,7 +13,9 @@ com/exadatum/hive/xsd/serde/avro/AvroDeserializer$SchemaReEncoder$1.class
 com/exadatum/hive/xsd/serde/converter/Source.class
 com/exadatum/hive/xsd/serde/converter/SchemaBuilder$1.class
 com/exadatum/hive/xsd/serde/converter/ConverterException.class
+com/exadatum/hive/xsd/serde/converter/Converter$1.class
 com/exadatum/hive/xsd/serde/avro/InstanceCache.class
+com/exadatum/hive/xsd/serde/converter/Converter$Options.class
 com/exadatum/hive/xsd/serde/converter/DatumBuilder$1.class
 com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.class
 com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.class
@@ -30,6 +32,7 @@ com/exadatum/hive/xsd/serde/converter/SchemaBuilder.class
 com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat$XmlRecordReader.class
 com/exadatum/hive/xsd/serde/avro/ReaderWriterSchemaPair.class
 com/exadatum/hive/xsd/serde/avro/AvroDeserializer$1.class
+com/exadatum/hive/xsd/serde/converter/Converter$BaseDirResolver.class
 com/exadatum/hive/xsd/serde/avro/AvroDeserializer$SchemaReEncoder.class
 com/exadatum/hive/xsd/serde/XmlXsdSerDe.class
 com/exadatum/hive/xsd/serde/avro/AvroSerializer$1.class

@@ -26,23 +26,15 @@ public class XSDParser {
             DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
             Document document = docBuilder.parse(file);
             NodeList elementList = document.getElementsByTagName("xs:element");
-            NodeList attributeList = document.getElementsByTagName("xs:attribute");
             for (int i = 0; i < elementList.getLength(); i++) {
                 Element element = (Element) elementList.item(i);
-                if (element.hasAttributes() && element.getAttribute("type") != "") {
-                    result.put(xpathString(element, new StringBuilder(element.getAttribute("name"))).toString(), extractType(element.getAttribute("type")));
-                }
+
                 if (i <= 0) {
                     setStartAndEndTag(element);
+                    break;
                 }
             }
-            for (int i = 0; i < attributeList.getLength(); i++) {
-                Element element = (Element) attributeList.item(i);
-                if (element.hasAttributes() && element.getAttribute("type") != "") {
-                    result.put(element.getAttribute("name"), extractType(element.getAttribute("type")));
-                }
 
-            }
 
         } catch (ParserConfigurationException e) {
             e.printStackTrace();

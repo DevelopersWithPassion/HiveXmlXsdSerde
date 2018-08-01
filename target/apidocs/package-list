@@ -1,0 +1,6 @@
+com.exadatum.hive.xsd.serde
+com.exadatum.hive.xsd.serde.avro
+com.exadatum.hive.xsd.serde.converter
+com.exadatum.hive.xsd.serde.processor
+com.exadatum.hive.xsd.serde.readerwriter
+com.exadatum.hive.xsd.serde.serializer

@@ -22,9 +22,9 @@ package com.exadatum.hive.xsd.serde.converter;
  * The ASF licenses this file to You under the Apache License, Version 2.0
  * (the "License"); you may not use this file except in compliance with
  * the License.  You may obtain a copy of the License at
- * <p>
- * http://www.apache.org/licenses/LICENSE-2.0
- * <p>
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,8 +32,6 @@ package com.exadatum.hive.xsd.serde.converter;
  * limitations under the License.
  */
 
-import com.exadatum.hive.xsd.serde.processor.XSDParser;
-import com.exadatum.hive.xsd.serde.readerwriter.XmlInputFormat;
 import org.apache.avro.Schema;
 import org.apache.avro.io.DatumWriter;
 import org.apache.avro.io.EncoderFactory;
@@ -44,37 +42,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Converter {
-    public static Schema createSchema(String xsd) {
-        return new SchemaBuilder().createSchema(xsd);
-    }
+    public static Schema createSchema(String xsd) { return new SchemaBuilder().createSchema(xsd); }
+    public static Schema createSchema(File file) { return new SchemaBuilder().createSchema(file); }
+    public static Schema createSchema(Reader reader) { return new SchemaBuilder().createSchema(reader); }
+    public static Schema createSchema(InputStream stream) { return new SchemaBuilder().createSchema(stream); }
 
-    public static Schema createSchema(File file) {
-        return new SchemaBuilder().createSchema(file);
-    }
-
-    public static Schema createSchema(Reader reader) {
-        return new SchemaBuilder().createSchema(reader);
-    }
-
-    public static Schema createSchema(InputStream stream) {
-        return new SchemaBuilder().createSchema(stream);
-    }
-
-    public static <T> T createDatum(Schema schema, File file) {
-        return new DatumBuilder(schema).createDatum(file);
-    }
-
-    public static <T> T createDatum(Schema schema, String xml) {
-        return new DatumBuilder(schema).createDatum(xml);
-    }
-
-    public static <T> T createDatum(Schema schema, Reader reader) {
-        return new DatumBuilder(schema).createDatum(reader);
-    }
-
-    public static <T> T createDatum(Schema schema, InputStream stream) {
-        return new DatumBuilder(schema).createDatum(stream);
-    }
+    public static <T> T createDatum(Schema schema, File file) { return new DatumBuilder(schema).createDatum(file); }
+    public static <T> T createDatum(Schema schema, String xml) { return new DatumBuilder(schema).createDatum(xml); }
+    public static <T> T createDatum(Schema schema, Reader reader) { return new DatumBuilder(schema).createDatum(reader); }
+    public static <T> T createDatum(Schema schema, InputStream stream) { return new DatumBuilder(schema).createDatum(stream); }
 
     private static class Options {
         static final String USAGE = "{-d|--debug} {-b|--baseDir <baseDir>} <xsdFile> <xmlFile> {<avscFile>} {<avroFile>}";
@@ -88,11 +64,7 @@ public class Converter {
         boolean debug;
         File baseDir;
 
-        Options() {
-        }
-
-        ;
-
+        
         Options(String... args) {
             List<String> files = new ArrayList<>();
 
@@ -146,35 +118,35 @@ public class Converter {
 
     private static class BaseDirResolver implements SchemaBuilder.Resolver {
         private File baseDir;
-
-        private BaseDirResolver(File baseDir) {
-            this.baseDir = baseDir;
-        }
+        private BaseDirResolver(File baseDir) { this.baseDir = baseDir; }
 
         public InputStream getStream(String systemId) {
             File file = new File(baseDir, systemId);
 
-            try {
-                return new FileInputStream(file);
-            } catch (FileNotFoundException e) {
-                return null;
-            }
+            try { return new FileInputStream(file); }
+            catch (FileNotFoundException e) { return null; }
         }
     }
 
     public static void main(String... args) throws IOException {
-        Options opts = new Options();
+        Options opts;
+        try {
+            opts = new Options(args);
+        } catch (IllegalArgumentException e) {
+            System.out.println("XML Avro converter.\nError: " + e.getMessage() + "\n" + "Usage: " + Options.USAGE + "\n");
+            System.exit(1);
+            return;
+        }
 
-        opts.xsdFile = new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.xsd");
-        opts.avroFile = new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.avsc");
-        opts.baseDir = new File("/home/exa00077/Videos/EDI-XSD/Nouns/");
+        System.out.println("Converting: \n" + opts.xsdFile + " -> " + opts.avscFile + "\n" + opts.xmlFile + " -> " + opts.avroFile);
+        opts.xsdFile=new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.xsd");
+        opts.avroFile=new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.avsc");
         SchemaBuilder schemaBuilder = new SchemaBuilder();
         schemaBuilder.setDebug(opts.debug);
         if (opts.baseDir != null) schemaBuilder.setResolver(new BaseDirResolver(opts.baseDir));
         Schema schema = schemaBuilder.createSchema(opts.xsdFile);
-           System.out.println(schema.toString());
-        XSDParser.getAllXpaths(new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.xsd"));
-        String startTag=XmlInputFormat.startTag;
+        System.out.println(schema.toString());
+
 
     }
 }

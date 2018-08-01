@@ -1,7 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dda7831-1e64-417f-a508-1c679e5b3587" name="Default" comment="" />
+    <list default="true" id="3dda7831-1e64-417f-a508-1c679e5b3587" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/XmlXsdSerDe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWritable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroObjectInspectorGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroSerDe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroSerializer.SerializeToAvroException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroSerializer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/BadSchemaException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/HaivvreoException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/HaivvreoUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/InstanceCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/ReaderWriterSchemaPair.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/SchemaResolutionProblem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/SchemaToTypeInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroContainerInputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroContainerOutputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroDeserializer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroGenericRecordReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroGenericRecordWritable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroGenericRecordWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroObjectInspectorGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroSerDe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroSerializer.SerializeToAvroException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroSerializer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/BadSchemaException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/HaivvreoException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/HaivvreoUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/InstanceCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/ReaderWriterSchemaPair.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/SchemaResolutionProblem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/SchemaToTypeInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/class-use/XmlXsdSerDe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/Converter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/ConverterException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/DatumBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.Resolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/Converter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/ConverterException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/DatumBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/SchemaBuilder.Resolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/SchemaBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/XSDParser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/class-use/XSDParser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/SplittableXmlInputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/XMLRecordReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.XmlRecordReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/SplittableXmlInputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/XMLRecordReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/XmlInputFormat.XmlRecordReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/XmlInputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/XsdSerializer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/class-use/XsdSerializer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/XmlXsdSerDe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/XmlXsdSerDe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/converter/Converter$BaseDirResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/converter/Converter$BaseDirResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/converter/Converter$Options.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/converter/Converter$Options.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/converter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/converter/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/processor/XSDParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/processor/XSDParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,66 +126,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AvroGenericRecordWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConverterException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/ConverterException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DatumBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/DatumBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="167">
+              <caret line="113" column="53" lean-forward="true" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2236#2237#0" expanded="true" />
+                <element signature="e#2293#2294#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvroContainerInputFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XSDParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="169" column="60" selection-start-line="169" selection-start-column="60" selection-end-line="169" selection-end-column="60" />
+            <state relative-caret-position="596">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1973#1974#0" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2085#2086#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-                <element signature="e#2202#2203#0" expanded="true" />
-                <element signature="e#2265#2266#0" expanded="true" />
-                <element signature="e#2326#2327#0" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
-                <element signature="e#2454#2455#0" expanded="true" />
-                <element signature="e#2519#2520#0" expanded="true" />
-                <element signature="e#2585#2586#0" expanded="true" />
-                <element signature="e#2649#2650#0" expanded="true" />
-                <element signature="e#5461#5462#0" expanded="true" />
-                <element signature="e#5507#5508#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +173,8 @@
       <file leaf-file-name="XmlXsdSerDe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="126" column="46" lean-forward="true" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
+            <state relative-caret-position="224">
+              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,41 +182,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchemaBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.java">
+      <file leaf-file-name="AvroWrapper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/avro/mapred/AvroWrapper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XSConstants.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar!/org/apache/xerces/xs/XSConstants.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-427">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvroContainerOutputFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+            <state relative-caret-position="128">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvroDeserializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.java">
+      <file leaf-file-name="AvroDeserializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/avro/hadoop/io/AvroDeserializer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="205">
+              <caret line="53" column="73" lean-forward="true" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvroValueDeserializer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/avro/hadoop/io/AvroValueDeserializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryDecoder.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.5/avro-1.7.5.jar!/org/apache/avro/io/BinaryDecoder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlInputFormat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -146,6 +248,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/target</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -187,11 +292,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XSDParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlInputFormat.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/DatumBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" />
       </list>
     </option>
@@ -225,6 +330,7 @@
     <option name="width" value="1299" />
     <option name="height" value="736" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -263,6 +369,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="serde" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HiveXmlXsdSerde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HiveXmlXsdSerde" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serde" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HiveXmlXsdSerde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HiveXmlXsdSerde" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,15 +563,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32847896" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32847896" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49880478" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.12828685" side_tool="true" visible="true" weight="0.32792208" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.033466134" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32847896" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32847896" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49880478" weight="0.32792208" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.87171316" visible="true" weight="0.32792208" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.34741035" />
@@ -469,35 +589,6 @@
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917318" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32847896" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32847896" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24940239" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.34741035" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32847896" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4142395" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32917318" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32847896" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32847896" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.033466134" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -589,12 +680,6 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java</url>
-          <line>176</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="30" />
     </breakpoint-manager>
@@ -656,17 +741,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/experimental/working/SchemaToTypeInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/experimental/working/SampleSerde.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/experimental/working/AvroObjectInspectorException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/experimental/working/AvroObjectInspectorGenerator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-serde/1.2.0/hive-serde-1.2.0-sources.jar!/org/apache/hadoop/hive/serde2/avro/AvroObjectInspectorGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/hadoop/hive/serde2/avro/AvroObjectInspectorGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -716,23 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="114" column="33" lean-forward="true" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
-          <folding>
-            <element signature="e#4177#4193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XXMLParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XmlXsdProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/HiveXsdSerde.java" />
@@ -751,24 +808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/serializer/XsdSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -821,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -843,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/DatumBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar!/org/apache/xerces/xs/XSConstants.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-427">
@@ -863,14 +889,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -884,37 +903,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="126" column="46" lean-forward="true" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
+        <state relative-caret-position="315">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HiveXmlXsdSerde.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/DatumBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="113" column="53" lean-forward="true" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="169" column="60" selection-start-line="169" selection-start-column="60" selection-end-line="169" selection-end-column="60" />
+        <state relative-caret-position="596">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2202#2203#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2326#2327#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-            <element signature="e#2585#2586#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#5461#5462#0" expanded="true" />
-            <element signature="e#5507#5508#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/processor/XSDParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.5/avro-1.7.5.jar!/org/apache/avro/io/BinaryDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/avro/hadoop/io/AvroValueDeserializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/avro/hadoop/io/AvroDeserializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="53" column="73" lean-forward="true" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/1.2.0/hive-exec-1.2.0.jar!/org/apache/avro/mapred/AvroWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
