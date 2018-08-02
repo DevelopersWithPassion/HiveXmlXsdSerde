@@ -1,15 +1,31 @@
 package com.exadatum.hive.xsd.serde;
 
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
-import com.exadatum.hive.xsd.serde.avro.*;
-import com.exadatum.hive.xsd.serde.converter.Converter;
+
+import org.apache.hadoop.hive.serde2.avro.*;
+import com.exadatum.hive.xsd.serde.deserializer.AvroDeserializer;
 import com.exadatum.hive.xsd.serde.converter.DatumBuilder;
 import com.exadatum.hive.xsd.serde.converter.SchemaBuilder;
 import com.exadatum.hive.xsd.serde.processor.XSDParser;
 import com.exadatum.hive.xsd.serde.readerwriter.XmlInputFormat;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericRecord;
-import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hive.serde2.SerDe;
 import org.apache.hadoop.hive.serde2.SerDeException;
@@ -28,10 +44,7 @@ import java.util.*;
 public class XmlXsdSerDe implements SerDe {
 
     private static final Logger LOGGER = Logger.getLogger(XmlXsdSerDe.class);
-
     private static final String XSD_FILE_LOCATION = "schema.file.location";
-    private static final String XSD_BASE_DIRECTORY = "schema.base.dir";
-
     private ObjectInspector objectInspector = null;
     private static final String LIST_COLUMNS = "columns";
     private static final String LIST_COLUMN_TYPES = "columns.types";
@@ -88,13 +101,9 @@ public class XmlXsdSerDe implements SerDe {
 
     private void setColumnListAndType(String filePath) throws SerDeException {
         SchemaBuilder schemaBuilder = new SchemaBuilder();
-
-
         Schema schema = schemaBuilder.createSchema(new File(filePath));
-
         if (schema.getType() == Schema.Type.ARRAY)
             schema = schema.getElementType();
-
         this.schema = schema;
         AvroObjectInspectorGenerator avroObjectInspectorGenerator = new AvroObjectInspectorGenerator(schema);
         columnNamesFromXml = avroObjectInspectorGenerator.getColumnNames();
@@ -132,10 +141,9 @@ public class XmlXsdSerDe implements SerDe {
             } catch (XmlException e) {
                 e.printStackTrace();
             }
-
         GenericRecord avroRecord = (GenericRecord) datum;
         AvroGenericRecordWritable avroGenericRecordWritable = new AvroGenericRecordWritable(avroRecord);
-
+        avroGenericRecordWritable.setFileSchema(schema);
         return getDeserializer().deserialize(columnNamesFromXml, columnTypesFromXml, avroGenericRecordWritable, schema);
 
     }

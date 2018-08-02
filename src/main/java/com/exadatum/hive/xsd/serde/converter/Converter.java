@@ -33,9 +33,6 @@ package com.exadatum.hive.xsd.serde.converter;
  */
 
 import org.apache.avro.Schema;
-import org.apache.avro.io.DatumWriter;
-import org.apache.avro.io.EncoderFactory;
-import org.apache.avro.specific.SpecificDatumWriter;
 
 import java.io.*;
 import java.util.ArrayList;
