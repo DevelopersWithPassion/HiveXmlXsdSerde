@@ -1,161 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dda7831-1e64-417f-a508-1c679e5b3587" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/deserializer/AvroDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWritable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroObjectInspectorGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroSerDe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/AvroSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/BadSchemaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/HaivvreoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/HaivvreoUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/InstanceCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/ReaderWriterSchemaPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/SchemaResolutionProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/avro/SchemaToTypeInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/SplittableXmlInputFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hive-Xml-Xsd-Serde-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/XmlXsdSerDe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWritable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroObjectInspectorGenerator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroSerDe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroSerializer.SerializeToAvroException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/AvroSerializer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/BadSchemaException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/HaivvreoException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/HaivvreoUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/InstanceCache.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/ReaderWriterSchemaPair.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/SchemaResolutionProblem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/SchemaToTypeInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroContainerInputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroContainerOutputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroDeserializer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroGenericRecordReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroGenericRecordWritable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroGenericRecordWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroObjectInspectorGenerator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroSerDe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroSerializer.SerializeToAvroException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/AvroSerializer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/BadSchemaException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/HaivvreoException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/HaivvreoUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/InstanceCache.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/ReaderWriterSchemaPair.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/SchemaResolutionProblem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/class-use/SchemaToTypeInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/avro/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/class-use/XmlXsdSerDe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/Converter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/ConverterException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/DatumBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.Resolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/Converter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/ConverterException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/DatumBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/SchemaBuilder.Resolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/class-use/SchemaBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/converter/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/XSDParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/class-use/XSDParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/processor/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/SplittableXmlInputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/XMLRecordReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.XmlRecordReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/XmlInputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/SplittableXmlInputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/XMLRecordReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/XmlInputFormat.XmlRecordReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/class-use/XmlInputFormat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/readerwriter/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/XsdSerializer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/class-use/XsdSerializer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/exadatum/hive/xsd/serde/serializer/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/XmlXsdSerDe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/XmlXsdSerDe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroContainerInputFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroContainerOutputFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroDeserializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroDeserializer$SchemaReEncoder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroDeserializer$SchemaReEncoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroDeserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWritable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroGenericRecordWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroObjectInspectorGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroObjectInspectorGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroSerDe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroSerializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroSerializer$SerializeToAvroException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/AvroSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/BadSchemaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/HaivvreoException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/HaivvreoUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/InstanceCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/ReaderWriterSchemaPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/SchemaResolutionProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/SchemaToTypeInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/SchemaToTypeInfo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadatum/hive/xsd/serde/avro/SchemaToTypeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="3dda7831-1e64-417f-a508-1c679e5b3587" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -438,23 +284,6 @@
             <path>
               <item name="HiveXmlXsdSerde" type="b2602c69:ProjectViewProjectNode" />
               <item name="HiveXmlXsdSerde" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serde" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HiveXmlXsdSerde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HiveXmlXsdSerde" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serde" type="462c0819:PsiDirectoryNode" />
-              <item name="readerwriter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HiveXmlXsdSerde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HiveXmlXsdSerde" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -626,7 +455,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32847896" />
