@@ -1,4 +1,4 @@
-package com.exadatum.hive.xsd.serde.converter;
+package com.exadatum.hive.xsd.serde.exceptions;
 
 public class ConverterException extends RuntimeException {
     public ConverterException(String message) { super(message); }

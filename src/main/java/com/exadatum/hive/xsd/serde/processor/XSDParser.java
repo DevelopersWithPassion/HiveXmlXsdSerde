@@ -1,5 +1,6 @@
 package com.exadatum.hive.xsd.serde.processor;
 
+import com.exadatum.hive.xsd.serde.exceptions.XsdSerdeException;
 import com.exadatum.hive.xsd.serde.readerwriter.XmlInputFormat;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -18,6 +19,32 @@ import java.util.Map;
 
 public class XSDParser {
     private static String rootElement = "";
+
+
+    public static void setRootElement(File file) {
+        try {
+            DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+            Document document = docBuilder.parse(file);
+            NodeList elementList = document.getElementsByTagName("xs:element");
+            for (int i = 0; i < elementList.getLength(); i++) {
+                Element element = (Element) elementList.item(i);
+
+                if (i <= 0) {
+                    setStartAndEndTag(element);
+                    break;
+                }
+            }
+
+
+        } catch (ParserConfigurationException e) {
+            throw new XsdSerdeException("Not able to parse file " + file, e);
+        } catch (SAXException e) {
+            throw new XsdSerdeException("Exception while parsing" + file, e);
+        } catch (IOException e) {
+            throw new XsdSerdeException("File IO Esception while reading" + file, e);
+        }
+    }
 
     public static Map<String, String> getAllXpaths(File file) {
         Map<String, String> result = new HashMap<String, String>();

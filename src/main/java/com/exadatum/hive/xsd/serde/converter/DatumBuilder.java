@@ -1,5 +1,6 @@
 package com.exadatum.hive.xsd.serde.converter;
 
+import com.exadatum.hive.xsd.serde.exceptions.ConverterException;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericData;
 import org.w3c.dom.*;

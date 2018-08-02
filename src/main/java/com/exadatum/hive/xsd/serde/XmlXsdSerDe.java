@@ -7,9 +7,9 @@ package com.exadatum.hive.xsd.serde;
  * The ASF licenses this file to You under the Apache License, Version 2.0
  * (the "License"); you may not use this file except in compliance with
  * the License.  You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -68,14 +68,13 @@ public class XmlXsdSerDe implements SerDe {
 
             throw new SerDeException("Not ble to read file. file path may be missing " + filePath);
         }
-        Map<String, String> xpathWithDatatype = XSDParser.getAllXpaths(new File(filePath));
-
+        XSDParser.setRootElement(new File(filePath));
         setColumnListAndType(filePath);
+
         properties.setProperty("xmlinput.start", XmlInputFormat.startTag);
         properties.setProperty("xmlinput.end", XmlInputFormat.endTag);
         LOGGER.info("Start Tag " + XmlInputFormat.startTag + " End Tag " + XmlInputFormat.endTag);
 
-        // (1) workaround for the Hive issue with propagating the table properties to the InputFormat
         initialize(configuration, properties, XmlInputFormat.START_TAG_KEY, XmlInputFormat.END_TAG_KEY);
 
         List<String> columnNames;
@@ -90,13 +89,6 @@ public class XmlXsdSerDe implements SerDe {
         LOGGER.info("xml schema columns " + columnNames);
         LOGGER.info("xml schema column data types config " + properties.getProperty(LIST_COLUMN_TYPES));
 
-
-        // (5) create the object inspector and associate it with the XML processor
-        List<TypeInfo> typeInfos;
-        if (columnTypesFromXml.size() <= 0)
-            typeInfos = TypeInfoUtils.getTypeInfosFromTypeString(properties.getProperty(LIST_COLUMN_TYPES));
-        else
-            typeInfos = columnTypesFromXml;
     }
 
     private void setColumnListAndType(String filePath) throws SerDeException {
@@ -154,34 +146,23 @@ public class XmlXsdSerDe implements SerDe {
         return avroDeserializer;
     }
 
-    /**
-     * @see org.apache.hadoop.hive.serde2.Deserializer#getObjectInspector()
-     */
+
     @Override
     public ObjectInspector getObjectInspector() throws SerDeException {
         return this.objectInspector;
     }
 
-    /**
-     * @see org.apache.hadoop.hive.serde2.Deserializer#getSerDeStats()
-     */
     @Override
     public SerDeStats getSerDeStats() {
         return null;
     }
 
-    /**
-     * @see org.apache.hadoop.hive.serde2.Serializer#getSerializedClass()
-     */
     @Override
     public Class<? extends Writable> getSerializedClass() {
         return Text.class;
     }
 
-    /**
-     * @see org.apache.hadoop.hive.serde2.Serializer#serialize(Object,
-     * ObjectInspector)
-     */
+
     @Override
     public Writable serialize(Object object, ObjectInspector objectInspector) throws SerDeException {
         throw new UnsupportedOperationException();
