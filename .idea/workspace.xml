@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dda7831-1e64-417f-a508-1c679e5b3587" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/XmlXsdSerDe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/XmlAvroConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/SchemaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/converter/AvroSchemaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XMLRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadatum/hive/xsd/serde/readerwriter/XMLRecordReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="426">
-                <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -842,8 +837,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="426">
-            <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>

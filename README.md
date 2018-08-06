@@ -5,7 +5,7 @@ can expose hive table on top of xml data by defining relevent xsd schema while c
 external table.
 
 
-##Example 
+## Example 
 Table creation ddl for test.xsd will lok like below 
 
 ```
@@ -72,7 +72,7 @@ The sample xml for above xsd looks like
 
 ```
 
-####Table Creation
+#### Table Creation
 ```
 create external table test 
 ROW FORMAT SERDE 'com.exadatum.hive.xsd.serde.XmlXsdSerDe'
@@ -87,7 +87,7 @@ LOCATION '/user/exadatum/test'
 ```
 
 
-####Access pattern 
+#### Access pattern 
 The record from table can be access as simillar as we access for any other table in hive for example Struct record can be accessed via dot(.) operator
 ```
 select shipto.name from test;
