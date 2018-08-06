@@ -6,8 +6,7 @@ external table.
 
 
 ## How to use 
-Lets look into how to use the HiveXmlXsdSerde. Create a packaged jar and add jar to classpath
-To create fat jar run following maven command
+Lets look into how to use the HiveXmlXsdSerde. Create a fat jar by running following maven command and add jar to classpath.
 ```
 mvn clean package
 ```
@@ -46,7 +45,7 @@ Lets take a sample xsd file and name it as a test.xsd
 
 ```
 
-Below is the sample xsd for above xsd.
+Below is the sample XML for above xsd.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -75,8 +74,7 @@ Below is the sample xsd for above xsd.
 ```
 
 #### Table Creation
-DDL for serde is given below. please make sure that path for 
-schema.file.location is correct and it should be full path to xsd file.
+DDL for serde is given below. please make sure that path for schema.file.location is correct and it should be full path to xsd file.
 ```
 add jar Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-jar-with-dependencies.jar;
 
