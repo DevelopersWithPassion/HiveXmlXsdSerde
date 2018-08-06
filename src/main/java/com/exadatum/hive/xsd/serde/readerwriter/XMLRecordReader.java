@@ -1,18 +1,3 @@
-/**
- * (c) Copyright IBM Corp. 2013. All rights reserved.
- * <p>
- * Licensed under the Apache License, Version 2.0 (the "License").
- * You may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * <p>
- * http://www.apache.org/licenses/LICENSE-2.0
- * <p>
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 package com.exadatum.hive.xsd.serde.readerwriter;
 
@@ -25,13 +10,10 @@ import org.apache.hadoop.mapred.RecordReader;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * Given the stream reads records that are delimited by a specific begin/end tag.
- */
 public class XMLRecordReader implements RecordReader<LongWritable, Text> {
 
-    public static final String START_TAG_KEY = "xmlinput.start";
-    public static final String END_TAG_KEY = "xmlinput.end";
+    public static final String START_TAG = "xmlinput.start";
+    public static final String END_TAG = "xmlinput.end";
 
     private byte[] startTag;
     private byte[] endTag;
@@ -42,24 +24,11 @@ public class XMLRecordReader implements RecordReader<LongWritable, Text> {
     private DataOutputBuffer buffer = new DataOutputBuffer();
     private long recordStartPos;
 
-    /**
-     * Creates Hive XML record reader
-     *
-     * @param jobConf
-     *            the job configuration
-     * @param inputstream
-     *            the input stream (decompressed)
-     * @param start
-     *            the start of the split
-     * @param end
-     *            the end of the split
-     * @throws IOException
-     *             as appropriate
-     */
+  
     public XMLRecordReader(JobConf jobConf, InputStream inputstream, long start, long end) throws IOException {
         this.inputstream = inputstream;
-        this.startTag = jobConf.get(START_TAG_KEY).getBytes("utf-8");
-        this.endTag = jobConf.get(END_TAG_KEY).getBytes("utf-8");
+        this.startTag = jobConf.get(START_TAG).getBytes("utf-8");
+        this.endTag = jobConf.get(END_TAG).getBytes("utf-8");
         this.start = start;
         this.end = end;
         this.recordStartPos = this.start;

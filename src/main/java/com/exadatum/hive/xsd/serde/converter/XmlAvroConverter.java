@@ -38,11 +38,11 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Converter {
-    public static Schema createSchema(String xsd) { return new SchemaBuilder().createSchema(xsd); }
-    public static Schema createSchema(File file) { return new SchemaBuilder().createSchema(file); }
-    public static Schema createSchema(Reader reader) { return new SchemaBuilder().createSchema(reader); }
-    public static Schema createSchema(InputStream stream) { return new SchemaBuilder().createSchema(stream); }
+public class XmlAvroConverter {
+    public static Schema createSchema(String xsd) { return new AvroSchemaBuilder().createSchema(xsd); }
+    public static Schema createSchema(File file) { return new AvroSchemaBuilder().createSchema(file); }
+    public static Schema createSchema(Reader reader) { return new AvroSchemaBuilder().createSchema(reader); }
+    public static Schema createSchema(InputStream stream) { return new AvroSchemaBuilder().createSchema(stream); }
 
     public static <T> T createDatum(Schema schema, File file) { return new DatumBuilder(schema).createDatum(file); }
     public static <T> T createDatum(Schema schema, String xml) { return new DatumBuilder(schema).createDatum(xml); }
@@ -113,7 +113,7 @@ public class Converter {
         }
     }
 
-    private static class BaseDirResolver implements SchemaBuilder.Resolver {
+    private static class BaseDirResolver implements AvroSchemaBuilder.Resolver {
         private File baseDir;
         private BaseDirResolver(File baseDir) { this.baseDir = baseDir; }
 
@@ -138,7 +138,7 @@ public class Converter {
         System.out.println("Converting: \n" + opts.xsdFile + " -> " + opts.avscFile + "\n" + opts.xmlFile + " -> " + opts.avroFile);
         opts.xsdFile=new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.xsd");
         opts.avroFile=new File("/home/exa00077/Videos/EDI-XSD/Nouns/CustomerOrder.avsc");
-        SchemaBuilder schemaBuilder = new SchemaBuilder();
+        AvroSchemaBuilder schemaBuilder = new AvroSchemaBuilder();
         schemaBuilder.setDebug(opts.debug);
         if (opts.baseDir != null) schemaBuilder.setResolver(new BaseDirResolver(opts.baseDir));
         Schema schema = schemaBuilder.createSchema(opts.xsdFile);

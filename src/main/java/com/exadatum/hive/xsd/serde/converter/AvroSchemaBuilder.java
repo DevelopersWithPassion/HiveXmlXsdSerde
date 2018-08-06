@@ -21,7 +21,7 @@ import org.w3c.dom.ls.LSInput;
 import java.io.*;
 import java.util.*;
 
-public class SchemaBuilder {
+public class AvroSchemaBuilder {
     private boolean debug;
     private Resolver resolver;
 

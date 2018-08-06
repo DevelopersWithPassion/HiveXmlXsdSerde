@@ -21,7 +21,7 @@ package com.exadatum.hive.xsd.serde;
 import org.apache.hadoop.hive.serde2.avro.*;
 import com.exadatum.hive.xsd.serde.deserializer.AvroDeserializer;
 import com.exadatum.hive.xsd.serde.converter.DatumBuilder;
-import com.exadatum.hive.xsd.serde.converter.SchemaBuilder;
+import com.exadatum.hive.xsd.serde.converter.AvroSchemaBuilder;
 import com.exadatum.hive.xsd.serde.processor.XSDParser;
 import com.exadatum.hive.xsd.serde.readerwriter.XmlInputFormat;
 import org.apache.avro.Schema;
@@ -32,7 +32,6 @@ import org.apache.hadoop.hive.serde2.SerDeException;
 import org.apache.hadoop.hive.serde2.SerDeStats;
 import org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
-import org.apache.hadoop.hive.serde2.typeinfo.TypeInfoUtils;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.log4j.Logger;
@@ -92,7 +91,7 @@ public class XmlXsdSerDe implements SerDe {
     }
 
     private void setColumnListAndType(String filePath) throws SerDeException {
-        SchemaBuilder schemaBuilder = new SchemaBuilder();
+        AvroSchemaBuilder schemaBuilder = new AvroSchemaBuilder();
         Schema schema = schemaBuilder.createSchema(new File(filePath));
         if (schema.getType() == Schema.Type.ARRAY)
             schema = schema.getElementType();
