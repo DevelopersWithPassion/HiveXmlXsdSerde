@@ -5,8 +5,13 @@ can expose hive table on top of xml data by defining relevent xsd schema while c
 external table.
 
 
-## Example 
-Table creation ddl for test.xsd will lok like below 
+## How to use 
+Lets look into how to use the HiveXmlXsdSerde. Create a packaged jar and add jar to classpath
+To create fat jar run following maven command
+```
+mvn clean package
+```
+DDL for Table would be 
 
 ```
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -74,6 +79,8 @@ The sample xml for above xsd looks like
 
 #### Table Creation
 ```
+add jar Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-jar-with-dependencies.jar;
+
 create external table test 
 ROW FORMAT SERDE 'com.exadatum.hive.xsd.serde.XmlXsdSerDe'
 WITH SERDEPROPERTIES (
