@@ -11,8 +11,7 @@ To create fat jar run following maven command
 ```
 mvn clean package
 ```
-DDL for Table would be 
-
+Lets take a sample xsd file and name it as a test.xsd 
 ```
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="shiporder">
@@ -47,9 +46,7 @@ DDL for Table would be
 
 ```
 
-
-
-The sample xml for above xsd looks like 
+Below is the sample xsd for above xsd.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -78,6 +75,8 @@ The sample xml for above xsd looks like
 ```
 
 #### Table Creation
+DDL for serde is given below. please make sure that path for 
+schema.file.location is correct and it should be full path to xsd file.
 ```
 add jar Hive-Xml-Xsd-Serde-1.0-SNAPSHOT-jar-with-dependencies.jar;
 
